@@ -1,0 +1,42 @@
+--Create a grocery store database
+
+CREATE TABLE Baby_Basics 
+(id integer primary key, name text, quantity integer, size text, aisle integer, price text);
+
+INSERT INTO Baby_Basics
+VALUES
+(1, "diapers - 50 pack", 10, "newborn", 1, 20.00),
+(2, "diapers - 25 pack", 10, "newborn", 1, 15.00),
+(3, "diapers - 50 pack", 10, "infant", 1, 20.00),
+(4, "diapers - 25 pack", 10, "infant", 1, 15.00),
+(5, "diapers - 50 pack", 10, "toddler", 1, 20.00),
+(6, "diapers - 25 pack", 10, "toddler", 1, 15.00),
+(7, "bottles - 6 pack", 12, "N/A", 2, 15.00),
+(8, "bottles - 4 pack", 8, "N/A", 2, 10.00),
+(9, "pacifiers - 2 pack", 6, "N/A", 2, 10.00),
+(10, "pacifiers - 4 pack", 8, "N/A", 2, 15.00),
+(11, "bibs - 2 pack", 4, "infant", 3, 10.00),
+(12, "bibs - 4 pack", 4, "infant", 3, 15.00),
+(13, "bibs - 2 pack", 3, "toddler", 3, 10.00),
+(14, "bibs - 4 pack", 4, "toddler", 3, 15.00),
+(15, "formula - large", 12, "64 oz", 2, 25.00),
+(16, "formula - small", 10, "32 oz", 2, 15.00);
+
+
+--display the database
+SELECT * FROM Baby_Basics;
+
+--display the database ordered by price
+SELECT * FROM Baby_Basics
+ORDER BY price desc;
+
+--what items are available specifically for infants?
+SELECT * FROM Baby_Basics
+WHERE size = "infant"
+ORDER BY aisle, price asc;
+
+--do you have anything for $15 or less? what aisles can I find that in? 
+SELECT * FROM Baby_Basics
+WHERE price <= 15.00
+ORDER BY aisle, price desc;
+
