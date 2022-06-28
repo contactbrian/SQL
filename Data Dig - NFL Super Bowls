@@ -1,0 +1,139 @@
+/* Please be aware that I used a data set that was curated and provided by Khan Academy, but I did edit the data in the 'SB' column of the table. */
+
+
+CREATE TABLE superbowls(
+  Date      TEXT PRIMARY KEY,
+  SB         TEXT,
+  Winner     TEXT,
+  Winner_Pts INTEGER,
+  Loser      TEXT,
+  Loser_Pts  INTEGER,
+  MVP        TEXT,
+  Stadium    TEXT,
+  City       TEXT,
+  State      TEXT
+);
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 2 2020','54 (LIV)','Kansas City Chiefs',31,'San Francisco 49ers',20,'Patrick Mahomes','Hard Rock Stadium','Miami Gardens','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 3 2019','53 (LIII)','New England Patriots',13,'Los Angeles Rams',3,'Julian Edelman','Mercedes-Benz Stadium','Atlanta','Georgia');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 4 2018','52 (LII)','Philadelphia Eagles',41,'New England Patriots',33,'Nick Foles','U.S. Bank Stadium','Minneapolis','Minnesota');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 5 2017','51 (LI)','New England Patriots',34,'Atlanta Falcons',28,'Tom Brady','NRG Stadium','Houston','Texas');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 7 2016','50 (L)','Denver Broncos',24,'Carolina Panthers',10,'Von Miller','Levi''s Stadium','Santa Clara','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 1 2015','49 (XLIX)','New England Patriots',28,'Seattle Seahawks',24,'Tom Brady','University of Phoenix Stadium','Glendale','Arizona');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 2 2014','48 (XLVIII)','Seattle Seahawks',43,'Denver Broncos',8,'Malcolm Smith','MetLife Stadium','East Rutherford','New Jersey');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 3 2013','47 (XLVII)','Baltimore Ravens',34,'San Francisco 49ers',31,'Joe Flacco','Mercedes-Benz Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 5 2012','46 (XLVI)','New York Giants',21,'New England Patriots',17,'Eli Manning','Lucas Oil Stadium','Indianapolis','Indiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 6 2011','45 (XLV)','Green Bay Packers',31,'Pittsburgh Steelers',25,'Aaron Rodgers','Cowboys Stadium','Arlington','Texas');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 7 2010','44 (XLIV)','New Orleans Saints',31,'Indianapolis Colts',17,'Drew Brees','Sun Life Stadium','Miami Gardens','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 1 2009','43 (XLIII)','Pittsburgh Steelers',27,'Arizona Cardinals',23,'Santonio Holmes','Raymond James Stadium','Tampa','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 3 2008','42 (XLII)','New York Giants',17,'New England Patriots',14,'Eli Manning','University of Phoenix Stadium','Glendale','Arizona');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 4 2007','41 (XLI)','Indianapolis Colts',29,'Chicago Bears',17,'Peyton Manning','Dolphin Stadium','Miami Gardens','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 5 2006','40 (XL)','Pittsburgh Steelers',21,'Seattle Seahawks',10,'Hines Ward','Ford Field','Detroit','Michigan');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 6 2005','39 (XXXIX)','New England Patriots',24,'Philadelphia Eagles',21,'Deion Branch','Alltel Stadium','Jacksonville','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 1 2004','38 (XXXVIII)','New England Patriots',32,'Carolina Panthers',29,'Tom Brady','Reliant Stadium','Houston','Texas');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 26 2003','37 (XXXVII)','Tampa Bay Buccaneers',48,'Oakland Raiders',21,'Dexter Jackson','Qualcomm Stadium','San Diego','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 3 2002','36 (XXXVI)','New England Patriots',20,'St. Louis Rams',17,'Tom Brady','Louisiana Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 28 2001','35 (XXXV)','Baltimore Ravens',34,'New York Giants',7,'Ray Lewis+','Raymond James Stadium','Tampa','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 30 2000','34 (XXXIV)','St. Louis Rams',23,'Tennessee Titans',16,'Kurt Warner+','Georgia Dome','Atlanta','Georgia');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 31 1999','33 (XXXIII)','Denver Broncos',34,'Atlanta Falcons',19,'John Elway+','Pro Player Stadium','Miami Gardens','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 25 1998','32 (XXXII)','Denver Broncos',31,'Green Bay Packers',24,'Terrell Davis+','Qualcomm Stadium','San Diego','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 26 1997','31 (XXXI)','Green Bay Packers',35,'New England Patriots',21,'Desmond Howard','Louisiana Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 28 1996','30 (XXX)','Dallas Cowboys',27,'Pittsburgh Steelers',17,'Larry Brown','Sun Devil Stadium','Tempe','Arizona');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 29 1995','29 (XXIX)','San Francisco 49ers',49,'San Diego Chargers',26,'Steve Young+','Joe Robbie Stadium','Miami Gardens','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 30 1994','28 (XXVIII)','Dallas Cowboys',30,'Buffalo Bills',13,'Emmitt Smith+','Georgia Dome','Atlanta','Georgia');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 31 1993','27 (XXVII)','Dallas Cowboys',52,'Buffalo Bills',17,'Troy Aikman+','Rose Bowl','Pasadena','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 26 1992','26 (XXVI)','Washington Redskins',37,'Buffalo Bills',24,'Mark Rypien','Metrodome','Minneapolis','Minnesota');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 27 1991','25 (XXV)','New York Giants',20,'Buffalo Bills',19,'Ottis Anderson','Tampa Stadium','Tampa','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 28 1990','24 (XXIV)','San Francisco 49ers',55,'Denver Broncos',10,'Joe Montana+','Louisiana Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 22 1989','23 (XXIII)','San Francisco 49ers',20,'Cincinnati Bengals',16,'Jerry Rice+','Joe Robbie Stadium','Miami Gardens','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 31 1988','22 (XXII)','Washington Redskins',42,'Denver Broncos',10,'Doug Williams','Jack Murphy Stadium','San Diego','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 25 1987','21 (XXI)','New York Giants',39,'Denver Broncos',20,'Phil Simms','Rose Bowl','Pasadena','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 26 1986','20 (XX)','Chicago Bears',46,'New England Patriots',10,'Richard Dent+','Louisiana Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 20 1985','19 (XIX)','San Francisco 49ers',38,'Miami Dolphins',16,'Joe Montana+','Stanford Stadium','Palo Alto','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 22 1984','18 (XVIII)','Los Angeles Raiders',38,'Washington Redskins',9,'Marcus Allen+','Tampa Stadium','Tampa','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 30 1983','17 (XVII)','Washington Redskins',27,'Miami Dolphins',17,'John Riggins+','Rose Bowl','Pasadena','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 24 1982','16 XVI)','San Francisco 49ers',26,'Cincinnati Bengals',21,'Joe Montana+','Pontiac Silverdome','Pontiac','Michigan');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 25 1981','15 (XV)','Oakland Raiders',27,'Philadelphia Eagles',10,'Jim Plunkett','Louisiana Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 20 1980','14 (XIV)','Pittsburgh Steelers',31,'Los Angeles Rams',19,'Terry Bradshaw+','Rose Bowl','Pasadena','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 21 1979','13 (XIII)','Pittsburgh Steelers',35,'Dallas Cowboys',31,'Terry Bradshaw+','Orange Bowl','Miami','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 15 1978','12 (XII)','Dallas Cowboys',27,'Denver Broncos',10,'Harvey MartinRandy White+','Superdome','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 9 1977','11 (XI)','Oakland Raiders',32,'Minnesota Vikings',14,'Fred Biletnikoff+','Rose Bowl','Pasadena','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 18 1976','10 (X)','Pittsburgh Steelers',21,'Dallas Cowboys',17,'Lynn Swann+','Orange Bowl','Miami','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 12 1975','09 (IX)','Pittsburgh Steelers',16,'Minnesota Vikings',6,'Franco Harris+','Tulane Stadium','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 13 1974','08 (VIII)','Miami Dolphins',24,'Minnesota Vikings',7,'Larry Csonka+','Rice Stadium','Houston','Texas');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 14 1973','07 (VII)','Miami Dolphins',14,'Washington Redskins',7,'Jake Scott','Memorial Coliseum','Los Angeles','California');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 16 1972','06 (VI)','Dallas Cowboys',24,'Miami Dolphins',3,'Roger Staubach+','Tulane Stadium','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 17 1971','05 (V)','Baltimore Colts',16,'Dallas Cowboys',13,'Chuck Howley','Orange Bowl','Miami','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 11 1970','04 (IV)','Kansas City Chiefs',23,'Minnesota Vikings',7,'Len Dawson+','Tulane Stadium','New Orleans','Louisiana');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 12 1969','03 (III)','New York Jets',16,'Baltimore Colts',7,'Joe Namath+','Orange Bowl','Miami','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 14 1968','02 (II)','Green Bay Packers',33,'Oakland Raiders',14,'Bart Starr + ','Orange Bowl','Miami','Florida');
+INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Jan 15 1967','01 (I)','Green Bay Packers',35,'Kansas City Chiefs',10,'Bart Starr + ','Memorial Coliseum','Los Angeles','California');
+
+
+/* Select all the columns and rows from the table in the database */
+
+SELECT * FROM superbowls;
+
+
+/* How many Superbowls has each team won? */
+
+SELECT Winner, COUNT(Winner) AS Total_SB_Wins
+FROM superbowls 
+GROUP BY Winner
+ORDER BY Winner asc; 
+
+
+
+/* Which teams have won 3 or more Superbowls and how many have they won? */
+
+SELECT Winner, COUNT(Winner) AS Total_SB_Wins
+FROM superbowls 
+GROUP BY Winner
+HAVING Total_SB_Wins >=3 
+ORDER BY Total_SB_Wins desc;
+
+
+
+
+/* How many times has an AFC East Team (New England Patriots, New York Jets, Buffalo Bills, Miami Dolphins) represented the AFC in the Superbowl? */ 
+
+SELECT COUNT (Winner AND Loser) AS AFC_East_SB_Appearances
+FROM superbowls
+WHERE Winner IN ("New England Patriots", "New York Jets", "Miami Dolphins", "Buffalo Bills") OR Loser IN ("New England Patriots", "New York Jets", "Miami Dolphins", "Buffalo Bills");
+
+
+
+
+/* What is the average amount of points the winning team scored? */
+
+SELECT AVG(Winner_Pts) FROM superbowls;
+
+
+
+
+/* In what Superbowls did teams score more than 30 points in their win, and how many points did they score? */
+
+SELECT Winner, Winner_Pts, SB
+FROM superbowls
+GROUP BY Winner
+HAVING Winner_Pts > 30
+ORDER BY Winner_Pts desc;  
+
+
+
+/* What is the average point differential between the winning and losing teams? */
+
+SELECT AVG (Winner_Pts - Loser_Pts) AS Avg_Point_Diff FROM superbowls;
+
+
+
+
+/* How do the winning teams performance compare to the Average Point Differential? */
+
+SELECT SB, Winner, AVG (Winner_Pts - Loser_Pts) AS "Point_Diff",
+    CASE 
+        WHEN AVG (Winner_Pts - Loser_Pts) >= 14 THEN "Above Average"
+        ELSE "Below Average"
+    END as "Rating"
+FROM superbowls
+GROUP BY SB
+ORDER BY SB;
